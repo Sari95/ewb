@@ -16,6 +16,28 @@ body {
   background-position: center;
 }
 
+.step2 {
+  text-align: center;
+  margin-bottom: 0;
+  max-width: 100%;
+  max-height: auto;
+  background-image: url(../img/Step2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.step3 {
+  text-align: center;
+  margin-bottom: 0;
+  max-width: 100%;
+  max-height: auto;
+  background-image: url(../img/Step3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .flex {
   display:flex;
   justify-content:center center;
