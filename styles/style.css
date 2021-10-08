@@ -62,6 +62,9 @@ a.start {
   display: block;
 }
 
+.img-thumbnail {
+  border: none;
+}
 
 
 
