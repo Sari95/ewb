@@ -9,11 +9,6 @@ div {
   margin: 10px;
 }
 
-p{
-  text-align: center;
-  margin-top: 40px;
-}
-
 .flex {
   display:flex;
   justify-content:center center;
@@ -64,6 +59,7 @@ a.start {
 
 .img-thumbnail {
   border: none;
+  background-color: transparent;
 }
 
 
