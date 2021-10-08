@@ -5,17 +5,6 @@ body {
     background-color: #E5E5E5;
 }
 
-.step1 {
-  text-align: center;
-  margin-bottom: 0;
-  max-width: 100%;
-  max-height: auto;
-  background-image: url(../img/Step1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .step2 {
   text-align: center;
   margin-bottom: 0;
