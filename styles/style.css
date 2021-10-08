@@ -38,6 +38,11 @@ body {
   background-position: center;
 }
 
+p{
+  text-align: center;
+  margin-top: 40px;
+}
+
 .flex {
   display:flex;
   justify-content:center center;
