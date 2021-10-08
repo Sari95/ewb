@@ -5,28 +5,6 @@ body {
     background-color: #E5E5E5;
 }
 
-.step2 {
-  text-align: center;
-  margin-bottom: 0;
-  max-width: 100%;
-  max-height: auto;
-  background-image: url(../img/Step2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.step3 {
-  text-align: center;
-  margin-bottom: 0;
-  max-width: 100%;
-  max-height: auto;
-  background-image: url(../img/Step3.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 p{
   text-align: center;
   margin-top: 40px;
@@ -78,17 +56,6 @@ a.start {
   left: 30%;
   top: 0;
   display: block;
-}
-
-.logo {
-  text-align: center;
-  margin-bottom: 0;
-  max-width: 100%;
-  max-height: auto;
-  background-image: url(../img/EWB_Logo.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 
