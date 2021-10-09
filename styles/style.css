@@ -9,22 +9,6 @@ div {
   margin: 10px;
 }
 
-.flex {
-  display:flex;
-  justify-content:center center;
-  flex-wrap:wrap;
-}
-
-.flex > DIV {
-  height: 250px;
-  margin:60px auto;
-  padding:25px;
-  background:#E5E5E5;
-  border:1px solid #E5E5E5;
-  font-size:24pt;
-  color:#666;
-}
-
 a.start {
   display: block;
   height: 100%;
@@ -38,20 +22,24 @@ a.start {
   background-color: #F07D00;
   border: solid 1px #F07D00;
   border-radius: 8px;
+  padding: 20px;
 }
 
 .btn-primary:hover{
   background-color: #F9B112;
   border-color: #F9B112;
+  padding: 20px;
 }
 
 .btn-light{
   border: solid 1px #F07D00;
+  padding: 20px;
 }
 
 .btn-light:hover{
   background-color: #F9B112;
   border-color: #F9B112;
+  padding: 20px;
 }
 
 .img-thumbnail {
