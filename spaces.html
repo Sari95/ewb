@@ -19,7 +19,7 @@
                     <img src="img/WankdorfParking.png" class="img-thumbnail rounded" alt="parking1" >
                 </div>
                 <div>
-                    <img src="img/AllmendParking.svg" class="img-thumbnail rounded" alt="parking1" >
+                    <img src="img/AllmendParking-weiss.svg" class="img-thumbnail rounded clickable4" alt="parking1" >
                 </div>
                 <div class="mb-3">
                     <a href="overview.html" class="btn btn-primary">SAFE</a>
@@ -27,5 +27,14 @@
             </div>
         </div>
         <img src="img/EWB_Logo.svg" class="img-fluid" style="background-color: #e5e5e5" alt="logo" >
+
+        <script>
+            var clickableimages=Array.from(document.querySelectorAll("img.clickable4")) 
+            for (let clickableimage of clickableimages){
+                clickableimage.addEventListener ("click", function(){
+                    clickableimage.setAttribute("src", "img/AllmendParking.svg" )
+                })
+            }
+        </script>
     </body>
 </html>

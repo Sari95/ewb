@@ -50,20 +50,8 @@ a.start {
 }
 
 .btn-light:hover{
-  border: solid 3px #F9B112;
-}
-
-#auto {
-  background-image: url(../img/vectorauto.svg);
-  background-repeat: no-repeat;
-  background-size: 15% auto;
-  background-position: center center;
-  width: 20%;
-  height: 80%;
-  position: absolute;
-  left: 30%;
-  top: 0;
-  display: block;
+  background-color: #F9B112;
+  border-color: #F9B112;
 }
 
 .img-thumbnail {
@@ -79,8 +67,9 @@ a.start {
   margin-top: 167px;
 }
 
-
-
+.icon {
+  margin: 20px;
+}
 
 
 
