@@ -40,8 +40,17 @@ a.start {
   border-radius: 8px;
 }
 
+.btn-primary:hover{
+  background-color: #F9B112;
+  border-color: #F9B112;
+}
+
 .btn-light{
   border: solid 1px #F07D00;
+}
+
+.btn-light:hover{
+  border: solid 3px #F9B112;
 }
 
 #auto {

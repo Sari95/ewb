@@ -22,19 +22,44 @@
                         <img src="img/Mister FCZ.svg" class="img-fluid" alt="MisterFCZ">
                     </div>
                     <div>
-                        <img src="img/Brigitte.svg" class="img-fluid" alt="Brigitte">
+
+                        <img src="img/Brigitte-weiss.svg" class="img-fluid clickable1" alt="Brigitte">
                     </div>
                     <div>
-                        <img src="img/Sebastian.svg" class="img-fluid" alt="Sebastian">
+                        <img src="img/Sebastian-weiss.svg" class="img-fluid clickable2" alt="Sebastian">
                     </div>
                     <div>
-                        <img src="img/Maruscha.svg" class="img-fluid" alt="Maruscha">
+                        <img src="img/Maruscha-weiss.svg" class="img-fluid clickable3" alt="Maruscha">
                     </div>
                 <div class="mb-3">
                     <a href="spaces.html" class="btn btn-primary">GO TO PARKING</a>
                 </div>
             <img src="img/EWB_Logo.svg" class="img-fluid" alt="EWB-Logo">
         </div>
+
+        <script>
+            var clickableimages=Array.from(document.querySelectorAll("img.clickable1")) 
+            for (let clickableimage of clickableimages){
+                clickableimage.addEventListener ("click", function(){
+                    clickableimage.setAttribute("src", "img/Brigitte.svg" )
+                })
+            }
+
+            var clickableimages=Array.from(document.querySelectorAll("img.clickable2")) 
+            for (let clickableimage of clickableimages){
+                clickableimage.addEventListener ("click", function(){
+                    clickableimage.setAttribute("src", "img/Sebastian.svg" )
+                })
+            }
+
+            var clickableimages=Array.from(document.querySelectorAll("img.clickable3")) 
+            for (let clickableimage of clickableimages){
+                clickableimage.addEventListener ("click", function(){
+                    clickableimage.setAttribute("src", "img/Maruscha.svg" )
+                })
+            }
+        </script>
+
     </body>
 </html>
 
